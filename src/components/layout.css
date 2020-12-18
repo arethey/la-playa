@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+.title {
+  font-family: "Amatic SC", cursive !important;
+}
+.title-color {
+  color: #f9caa7;
+}
+.bg-main-color {
+  background-color: #f9caa7 !important;
+  color: #fff !important;
+}
+
+#rooms .room {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+.room1 {
+  background-image: url("../images/room1.jpg");
+}
+.room2 {
+  background-image: url("../images/room2.jpg");
+}
+.room3 {
+  background-image: url("../images/room3.jpg");
+}
+.room4 {
+  background-image: url("../images/room3.jpg");
+}
+.room5 {
+  background-image: url("../images/room3.jpg");
+}
+#rooms .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+}

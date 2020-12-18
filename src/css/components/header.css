@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+header {
+  background-image: linear-gradient(
+      rgb(249, 202, 167, 0.1),
+      rgb(249, 202, 167, 0.1)
+    ),
+    url("https://media-cdn.tripadvisor.com/media/photo-m/1280/13/8b/84/e5/la-playa-estrella-beach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+}
+header .logo {
+  font-family: "Amatic SC", cursive;
+}
+@media (max-width: 576px) {
+  header {
+    height: auto;
+  }
+  .content {
+    align-items: center;
+  }
+  .content .display-1 {
+    font-size: 4rem !important;
+  }
+}
